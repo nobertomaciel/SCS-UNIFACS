@@ -1,0 +1,118 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36" version="28.2.3" pages="2">
+  <diagram name="windows" id="Q07y_-CNkp4CInd-ojGR">
+    <mxGraphModel dx="833" dy="481" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2264" pageHeight="1673" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <UserObject label="[1] POST (UEFI/BIOS)&#xa;      ↓&#xa;[2] UEFI carrega bootmgfw.efi&#xa;      ↓&#xa;[3] Windows Boot Manager (BCD)&#xa;      ↓&#xa;[4] winload.efi carrega o kernel e drivers&#xa;      ↓&#xa;[5] ntoskrnl.exe inicializa o sistema&#xa;      ↓&#xa;[6] smss.exe → wininit.exe&#xa;      ↓&#xa;[7] winlogon.exe → Tela de login&#xa;      ↓&#xa;[8] explorer.exe → Ambiente gráfico" link="[1] POST (UEFI/BIOS)&#xa;      ↓&#xa;[2] UEFI carrega bootmgfw.efi&#xa;      ↓&#xa;[3] Windows Boot Manager (BCD)&#xa;      ↓&#xa;[4] winload.efi carrega o kernel e drivers&#xa;      ↓&#xa;[5] ntoskrnl.exe inicializa o sistema&#xa;      ↓&#xa;[6] smss.exe → wininit.exe&#xa;      ↓&#xa;[7] winlogon.exe → Tela de login&#xa;      ↓&#xa;[8] explorer.exe → Ambiente gráfico" id="zu7Uif2t0GPkoZRNkYHL-1">
+          <mxCell style="text;whiteSpace=wrap;" vertex="1" parent="1">
+            <mxGeometry x="700" y="90" width="250" height="330" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="zu7Uif2t0GPkoZRNkYHL-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="zu7Uif2t0GPkoZRNkYHL-2" target="zu7Uif2t0GPkoZRNkYHL-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zu7Uif2t0GPkoZRNkYHL-2" value="&lt;span style=&quot;font-weight: normal;&quot;&gt;[1] &lt;/span&gt;POST &lt;span style=&quot;font-weight: normal;&quot;&gt;(EFI/BIOS)&lt;/span&gt;" style="label;whiteSpace=wrap;html=1;align=center;verticalAlign=bottom;spacingLeft=0;spacingBottom=4;imageAlign=center;imageVerticalAlign=top;image=img/clipart/Gear_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="160" y="40" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zu7Uif2t0GPkoZRNkYHL-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="zu7Uif2t0GPkoZRNkYHL-3" target="zu7Uif2t0GPkoZRNkYHL-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zu7Uif2t0GPkoZRNkYHL-3" value="&lt;span style=&quot;font-weight: 400; text-align: center;&quot;&gt;[2]&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;EFI carrega &lt;/span&gt;bootmgfw.efi" style="label;whiteSpace=wrap;html=1;image=img/clipart/Gear_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="340" y="50" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zu7Uif2t0GPkoZRNkYHL-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="zu7Uif2t0GPkoZRNkYHL-5" target="zu7Uif2t0GPkoZRNkYHL-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zu7Uif2t0GPkoZRNkYHL-5" value="[3]&amp;nbsp;Windows Boot Manager&lt;div&gt;(BCD)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zu7Uif2t0GPkoZRNkYHL-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="zu7Uif2t0GPkoZRNkYHL-7" target="zu7Uif2t0GPkoZRNkYHL-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zu7Uif2t0GPkoZRNkYHL-7" value="[4]&amp;nbsp;&lt;b&gt;winload.efi&lt;/b&gt; ou &lt;b&gt;winload.exe&amp;nbsp;&lt;/b&gt;&lt;span style=&quot;text-align: left;&quot;&gt;carrega o kernel e drivers&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zu7Uif2t0GPkoZRNkYHL-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="zu7Uif2t0GPkoZRNkYHL-9" target="zu7Uif2t0GPkoZRNkYHL-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zu7Uif2t0GPkoZRNkYHL-9" value="[5]&amp;nbsp;&lt;span style=&quot;text-align: left;&quot;&gt;&lt;b&gt;ntoskrnl.exe&lt;/b&gt; inicializa o sistema&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zu7Uif2t0GPkoZRNkYHL-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="zu7Uif2t0GPkoZRNkYHL-13" target="zu7Uif2t0GPkoZRNkYHL-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zu7Uif2t0GPkoZRNkYHL-13" value="&lt;span style=&quot;text-align: left;&quot;&gt;[6] &lt;b&gt;smss.exe&lt;/b&gt; inicializa a sessão e cria processo &lt;b&gt;wininit.exe&lt;/b&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zu7Uif2t0GPkoZRNkYHL-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="zu7Uif2t0GPkoZRNkYHL-15" target="zu7Uif2t0GPkoZRNkYHL-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zu7Uif2t0GPkoZRNkYHL-15" value="&lt;span style=&quot;text-align: left;&quot;&gt;[7] &lt;b&gt;winlogon.exe&lt;/b&gt; inicializa a tela de login&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zu7Uif2t0GPkoZRNkYHL-17" value="&lt;span style=&quot;text-align: left;&quot;&gt;[8] &lt;b&gt;explorer.exe&lt;/b&gt; inicializa o ambiente gráfico&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="linux" id="ahD26Icl_Emieo_konw4">
+    <mxGraphModel dx="833" dy="481" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2264" pageHeight="1673" math="0" shadow="0">
+      <root>
+        <mxCell id="VLS8-KRBPkN3u6OBe-pV-0" />
+        <mxCell id="VLS8-KRBPkN3u6OBe-pV-1" parent="VLS8-KRBPkN3u6OBe-pV-0" />
+        <UserObject label="[1] POST (UEFI ou BIOS)&#xa;       ↓&#xa;[2] Firmware localiza o bootloader (GRUB, systemd-boot, LILO...)&#xa;       ↓&#xa;[3] Bootloader apresenta menu de boot e carrega o kernel + initramfs&#xa;       ↓&#xa;[4] Kernel Linux inicializa hardware, monta o sistema de arquivos raiz&#xa;       ↓&#xa;[5] init (PID 1) ou systemd assume o controle&#xa;       ↓&#xa;[6] systemd (ou outro init) inicia serviços, targets e sessões&#xa;       ↓&#xa;[7] Login: console (TTY) ou interface gráfica (GDM, LightDM...)&#xa;       ↓&#xa;[8] Usuário entra no sistema e inicia o ambiente de trabalho (opcional)" link="[1] POST (UEFI/BIOS)&#xa;      ↓&#xa;[2] UEFI carrega bootmgfw.efi&#xa;      ↓&#xa;[3] Windows Boot Manager (BCD)&#xa;      ↓&#xa;[4] winload.efi carrega o kernel e drivers&#xa;      ↓&#xa;[5] ntoskrnl.exe inicializa o sistema&#xa;      ↓&#xa;[6] smss.exe → wininit.exe&#xa;      ↓&#xa;[7] winlogon.exe → Tela de login&#xa;      ↓&#xa;[8] explorer.exe → Ambiente gráfico" id="VLS8-KRBPkN3u6OBe-pV-2">
+          <mxCell style="text;whiteSpace=wrap;" vertex="1" parent="VLS8-KRBPkN3u6OBe-pV-1">
+            <mxGeometry x="700" y="90" width="250" height="330" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="VLS8-KRBPkN3u6OBe-pV-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="VLS8-KRBPkN3u6OBe-pV-1" source="VLS8-KRBPkN3u6OBe-pV-4" target="VLS8-KRBPkN3u6OBe-pV-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VLS8-KRBPkN3u6OBe-pV-4" value="&lt;span style=&quot;font-weight: normal;&quot;&gt;[1] &lt;/span&gt;POST &lt;span style=&quot;font-weight: normal;&quot;&gt;(EFI/BIOS)&lt;/span&gt;" style="label;whiteSpace=wrap;html=1;align=center;verticalAlign=bottom;spacingLeft=0;spacingBottom=4;imageAlign=center;imageVerticalAlign=top;image=img/clipart/Gear_128x128.png" vertex="1" parent="VLS8-KRBPkN3u6OBe-pV-1">
+          <mxGeometry x="160" y="40" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="VLS8-KRBPkN3u6OBe-pV-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="VLS8-KRBPkN3u6OBe-pV-1" source="VLS8-KRBPkN3u6OBe-pV-6" target="VLS8-KRBPkN3u6OBe-pV-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VLS8-KRBPkN3u6OBe-pV-6" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-weight: 400; text-align: center;&quot;&gt;[2]&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-weight: normal;&quot;&gt;EFI carrega bootloader &lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;grubx64.efi&lt;/span&gt;&lt;/div&gt;" style="label;whiteSpace=wrap;html=1;image=img/clipart/Gear_128x128.png" vertex="1" parent="VLS8-KRBPkN3u6OBe-pV-1">
+          <mxGeometry x="340" y="50" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VLS8-KRBPkN3u6OBe-pV-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="VLS8-KRBPkN3u6OBe-pV-1" source="VLS8-KRBPkN3u6OBe-pV-8" target="VLS8-KRBPkN3u6OBe-pV-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VLS8-KRBPkN3u6OBe-pV-8" value="[3] Bootloader apresenta menu de boot e carrega o &lt;b&gt;kernel&lt;/b&gt; + &lt;b&gt;initramfs&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="VLS8-KRBPkN3u6OBe-pV-1">
+          <mxGeometry x="350" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VLS8-KRBPkN3u6OBe-pV-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="VLS8-KRBPkN3u6OBe-pV-1" source="VLS8-KRBPkN3u6OBe-pV-10" target="VLS8-KRBPkN3u6OBe-pV-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VLS8-KRBPkN3u6OBe-pV-10" value="[4]&amp;nbsp;&lt;span style=&quot;text-align: left;&quot;&gt;Kernel Linux inicializa hardware, monta o sistema de arquivos raiz&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="VLS8-KRBPkN3u6OBe-pV-1">
+          <mxGeometry x="180" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VLS8-KRBPkN3u6OBe-pV-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="VLS8-KRBPkN3u6OBe-pV-1" source="VLS8-KRBPkN3u6OBe-pV-12" target="VLS8-KRBPkN3u6OBe-pV-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VLS8-KRBPkN3u6OBe-pV-12" value="[5]&amp;nbsp;&lt;span style=&quot;text-align: left;&quot;&gt;init (PID 1) ou systemd assume o controle&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="VLS8-KRBPkN3u6OBe-pV-1">
+          <mxGeometry x="350" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VLS8-KRBPkN3u6OBe-pV-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="VLS8-KRBPkN3u6OBe-pV-1" source="VLS8-KRBPkN3u6OBe-pV-14" target="VLS8-KRBPkN3u6OBe-pV-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VLS8-KRBPkN3u6OBe-pV-14" value="&lt;span style=&quot;text-align: left;&quot;&gt;[6]&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;text-align: left;&quot;&gt;systemd (ou outro init) inicia serviços, targets e sessões&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="VLS8-KRBPkN3u6OBe-pV-1">
+          <mxGeometry x="180" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VLS8-KRBPkN3u6OBe-pV-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="VLS8-KRBPkN3u6OBe-pV-1" source="VLS8-KRBPkN3u6OBe-pV-16" target="VLS8-KRBPkN3u6OBe-pV-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VLS8-KRBPkN3u6OBe-pV-16" value="&lt;span style=&quot;text-align: left;&quot;&gt;[7]&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;text-align: left;&quot;&gt;Login: console (TTY) ou interface gráfica (GDM, LightDM...)&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="VLS8-KRBPkN3u6OBe-pV-1">
+          <mxGeometry x="350" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VLS8-KRBPkN3u6OBe-pV-17" value="&lt;span style=&quot;text-align: left;&quot;&gt;[8]&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;text-align: left;&quot;&gt;Usuário entra no sistema e inicia o ambiente de trabalho (opcional)&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="VLS8-KRBPkN3u6OBe-pV-1">
+          <mxGeometry x="180" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
